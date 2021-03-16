@@ -68,8 +68,8 @@ if __name__ == "__main__":
         # Calculate the manhattan distance and print the value
         result = manhattanDistance(first_point, second_point)
         print("The Manhattan distance is: " + str(result))
-        user_input = input("Would you like to calculate another distance? (y/n): ")
 
         # Jump out of loop if user wishes to exit
+        user_input = input("Would you like to calculate another distance? (y/n): ")
         if user_input == "n":
             break
