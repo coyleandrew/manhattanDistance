@@ -1,4 +1,5 @@
 # manhattanDistance
+
 Program used to calculate the Manhattan distance between two points. This program has two versions: one that runs on the command line and one that uses a GUI.
 This program was written and tested using Python3.8. Please ensure you have the latest version of Python.
 
@@ -7,6 +8,8 @@ This program was written and tested using Python3.8. Please ensure you have the 
 ### Command Line Version
 
 * main.py: The file that hold the main program
+
+* test.py: A test file that contains 15 test cases.
 
 ### GUI Version
 
@@ -17,8 +20,6 @@ This program was written and tested using Python3.8. Please ensure you have the 
 * model.py: Contains model class that is responsible for holding user input, performing input validation, and calculating the Manhattan distance
 
 * view.py: Contains view class that is responsible for producing the GUI
-
-A test file that includes 15 test cases is also included. If you wish to see the results of the tests, just run test.py
 
 ## How to Use
 
@@ -44,7 +45,7 @@ Open a command line and type:
 
 ### Test Cases
 
-If you wish to run the test cases, download test.py to a directory of your choosing
+In the manhattanDistance directory, navigate to the CommandLine directory
 
 Open a command line and type:
 
