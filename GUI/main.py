@@ -31,7 +31,6 @@ if __name__ == "__main__":
     # user_instructions: Text label that tells the user how to enter values
     problem_description = ttk.Label(mainframe, wraplength=400, text="The Manhattan distance is the distance between two points in a grid (like the grid-like street geography of the New York borough of Manhattan) calculated by only taking a vertical and/or horizontal path.")
     user_instructions = ttk.Label(mainframe, wraplength=400, text="Please enter two points below. \nNote: Value entered must be integers. Any value not specified will result in a 0 for that coordinate.")
-    
     # Point A widgets
     # pointA_label: "Point A"
     # PointA_x_label: "x-coordinate"
@@ -42,8 +41,7 @@ if __name__ == "__main__":
     pointA_x_label = ttk.Label(mainframe, text="x-coordinate:")
     pointA_y_label = ttk.Label(mainframe, text="y-coordinate:")
     pointA_x_input = ttk.Entry(mainframe)
-    pointA_y_input = ttk.Entry(mainframe)
-    
+    pointA_y_input = ttk.Entry(mainframe)    
     # Point B widgets
     # pointB_label: "Point B"
     # pointB_x_label: "x-coordinate"
@@ -54,8 +52,7 @@ if __name__ == "__main__":
     pointB_x_label = ttk.Label(mainframe, text="x-coordinate:")
     pointB_y_label = ttk.Label(mainframe, text="y-coordinate:")
     pointB_x_input = ttk.Entry(mainframe)
-    pointB_y_input = ttk.Entry(mainframe)
-    
+    pointB_y_input = ttk.Entry(mainframe)    
     # enter_button: Enter button at the bottom of the window
     enter_button = ttk.Button(mainframe, text="Enter", command=enter_button_click)
 
