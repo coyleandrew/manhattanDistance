@@ -3,11 +3,12 @@ Program used to calculate the Manhattan distance between two points. This progra
 This program was written and tested using Python3.8. Please ensure you have the latest version of Python.
 
 ## What's included?
-<u>Command Line Version</u>
+
+### Command Line Version
 
 * main.py: The file that hold the main program
 
-<u>GUI Version</u>
+### GUI Version
 
 * gui_main.py: Entry point of the program
   
@@ -20,7 +21,8 @@ This program was written and tested using Python3.8. Please ensure you have the 
 A test file that includes 15 test cases is also included. If you wish to see the results of the tests, just run test.py
 
 ## How to Use
-<u>Command Line Version</u>
+
+### Command Line Version
 
 Download main.py to a directory of your choosing.
 
@@ -28,7 +30,7 @@ Open a command line and type:
 
     python main.py
 
-<u>GUI Version</u>
+### GUI Version
 
 Download gui_main.py, controller.py, model.py, and view.py to a directory of your choosing
 
