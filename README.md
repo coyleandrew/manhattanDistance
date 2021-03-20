@@ -22,21 +22,25 @@ A test file that includes 15 test cases is also included. If you wish to see the
 
 ## How to Use
 
+Clone the manhattanDistance repository to a directory of your choosing. (for more info on GitHub cloning, see https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+Open a terminal and navigate into the manhattanDistance directory.
+
 ### Command Line Version
 
-Download Command Line/main.py to a directory of your choosing.
+In the manhattanDistance directory, navigate to the CommandLine directory
 
 Open a command line and type:
 
-    python main.py
+    python3 main.py
 
 ### GUI Version
 
-Download GUI/gui_main.py, GUI/controller.py, GUI/model.py, and GUI/view.py to a directory of your choosing
+In the manhattanDistance directory, navigate to the GUI directory
 
 Open a command line and type:
 
-    python gui_main.py
+    python3 gui_main.py
 
 If you wish to run the test cases, download test.py to a directory of your choosing
 
