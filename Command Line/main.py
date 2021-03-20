@@ -14,10 +14,9 @@ def manhattan_distance(first_point, second_point):
 
     return total_distance
 
-
 # This method validates user input to ensure the user is entering integer values for the coordinates.
-# This method takes in user input and attempts to cast it to an integer. If the casting is unsuccessful,
-# then the method will return false. If casting is successful, this method returns true.
+# This method takes in user input and attempts to cast it to an integer. If casting is successful,
+# this method returns true. If the casting is unsuccessful, then the method will return false.
 def valid_input(input):
     # Try to convert the input to an int. If this fails, then we return false.
     try:
@@ -25,7 +24,6 @@ def valid_input(input):
         return True
     except ValueError:
         return False
-
 
 # This is the entry point to our program. The main method will continue to ask for user input until
 # the user is finished calculating distances.
