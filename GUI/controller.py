@@ -14,6 +14,10 @@ class Controller:
         self.model = Model()
         self.view = View(self)
 
+    # This method is responsible for handling the user input when they
+    # press the 'Enter' button on the GUI. The user input is taken from
+    # the view and given to the model. The user input is then validated
+    # by the model.
     def enter_button_click(self):
         # Get user values
         self.model.pointA_x_coor = self.view.pointA_x_input.get()
