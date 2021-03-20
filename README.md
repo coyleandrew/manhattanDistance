@@ -42,8 +42,10 @@ Open a command line and type:
 
     python3 gui_main.py
 
+### Test Cases
+
 If you wish to run the test cases, download test.py to a directory of your choosing
 
 Open a command line and type:
 
-    python tests.py
+    python3 tests.py
