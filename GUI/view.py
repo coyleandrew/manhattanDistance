@@ -11,11 +11,12 @@ class View:
     def __init__(self, controller):
         # Create main window and give it a title
         self.root = Tk()
+        self.root.resizable(width=False, height=False)
         self.root.title("Manhattan Distance")
 
         # Create frame to put inside window (our content will be placed inside this frame)
         self.mainframe = ttk.Frame(self.root, padding="3 3 12 12")
-        self.mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+        self.mainframe.pack(expand=True)
         self.root.columnconfigure(0, weight=1)
         self.root.rowconfigure(0, weight=1)
 
