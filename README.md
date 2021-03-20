@@ -24,7 +24,7 @@ A test file that includes 15 test cases is also included. If you wish to see the
 
 ### Command Line Version
 
-Download main.py to a directory of your choosing.
+Download Command Line/main.py to a directory of your choosing.
 
 Open a command line and type:
 
@@ -32,7 +32,7 @@ Open a command line and type:
 
 ### GUI Version
 
-Download gui_main.py, controller.py, model.py, and view.py to a directory of your choosing
+Download GUI/gui_main.py, GUI/controller.py, GUI/model.py, and GUI/view.py to a directory of your choosing
 
 Open a command line and type:
 
